@@ -24,7 +24,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="1" />
           <entry key="jpeg" value="1" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="png" value="3" />
           <entry key="ts" value="1" />
           <entry key="txt" value="1" />
@@ -36,7 +36,7 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
@@ -46,6 +46,7 @@
         <counts>
           <entry key="css" value="674" />
           <entry key="html" value="1050" />
+          <entry key="js" value="2" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
@@ -53,6 +54,7 @@
         <counts>
           <entry key="CSS" value="674" />
           <entry key="HTML" value="1050" />
+          <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -73,16 +75,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gitignore.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+        <entry file="file://$PROJECT_DIR$/item.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -116,11 +109,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/item.js" />
         <option value="$PROJECT_DIR$/item.html" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/gitignore.txt" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/item.js" />
       </list>
     </option>
   </component>
@@ -138,7 +131,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -199,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597753861113</updated>
-      <workItem from="1597753862348" duration="39611000" />
+      <workItem from="1597753862348" duration="39864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39611000" />
+    <option name="totallyTimeSpent" value="39864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,9 +244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/green_background.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -263,13 +253,17 @@
     <entry file="file://$PROJECT_DIR$/ромашка.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -283,12 +277,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
