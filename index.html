@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style></style>
+    <title>Title</title>
+    <link href="http://site.kz/css/reset.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<div class="question-block">
+    <div class="question-block-img1 image"></div>
+    <div class="question-block-main">
+        <section id="question-section">
+            <input type="text" placeholder="  Your question" class="question-input" value="" id="question">
+            <button class="question-block-button button" id="js-button">получить ответ</button>
+        </section>
+    </div>
+    <div class="question-block-img2 image"></div>
+</div>
+<div class="answer-block">
+    <section id="answer-section" style="display: none">
+        <a class="answer-block-demo" id="demo"></a>
+        <button class="aswer-section-button button" id="answer-section-button">Задать еще вопрос</button>
+    </section>
+</div>
+
+<script>
+    const answerSection = document.getElementById("answer-section");
+    const questionSection = document.getElementById("question-section");
+    const buttonElement = document.getElementById("js-button");
+    buttonElement.addEventListener('click', requestAnsver);
+    document.getElementById("answer-section-button").addEventListener('click', NewQuestion);
+
+    function requestAnsver() {
+        const questionText = document.getElementById("question").value;
+        let params = encodeURIComponent(questionText);
+        let uri = "https://8ball.delegator.com/magic/JSON/" + params;
+        fetch(uri)
+            .then(response => response.json())
+            .then(json => {
+                console.log(json);
+                document.getElementById("demo").innerHTML = json.magic.answer;
+                answerSection.style.display = 'block';
+                questionSection.style.display = 'none';
+            });
+    }
+
+    function NewQuestion() {
+        answerSection.style.display = 'none';
+        questionSection.style.display = 'block';
+
+    }
+
+</script>
+</body>
+</html>

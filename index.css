@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: lightgreen url("ромашка.png");
+    background-size: 42px 36px;
+}
+
+.question-block {
+    min-height: 900px;
+
+}
+.question-block-main{
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    min-height: 60px;
+    min-width: 100px;
+    background-color: green;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: white;
+    border: #00491f solid 2px;
+    box-shadow: #00491f;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.question-input {
+    min-width: 300px;
+    min-height: 70px;
+    border-radius: 10px;
+    border: green solid 5px;
+    font-size: 25px;
+}
+
+.answer-block {
+    margin-top: -500px;
+    min-height: 250px;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.answer-block-demo{
+    min-height: 50px;
+    background-color: white;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 20px;
+}
